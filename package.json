@@ -1,0 +1,18 @@
+{
+  "name": "yaml-lite",
+  "version": "1.0.0",
+  "description": "Tiny YAML subset parser (flow and block maps/lists)",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["yaml", "parser", "config"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
